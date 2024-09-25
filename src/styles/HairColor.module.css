@@ -1,0 +1,21 @@
+.main_div{
+    @apply flex flex-wrap justify-start border;
+}
+
+
+.colormapdiv{
+    @apply  cursor-pointer p-2 border-2 border-spacing-0 my-1 mx-0.5  hover:border-blue-400 rounded;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+  pointer-events: none; /* Prevent tooltip from interfering with mouse events */
+}
+  

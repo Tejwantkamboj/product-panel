@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.multystep-component .p-stepper-nav .p-stepper-header.p-highlight {
+    background-color: #06b6d4 !important;
+    background: linear-gradient(90deg,#06b6d4 87%, #d2d2d2 87%);
+    border-right: none;
+}
+
+.multystep-component .p-stepper-nav .p-stepper-header.p-highlight:after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #06b6d4;
+    width: 52px;
+    height: 52px;
+    transform: rotateZ(45deg);
+    z-index: 9;
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffff
+}
+
+.multystep-component .p-stepper-nav{
+    overflow: hidden;
+}
+
+.multystep-component .p-stepper-nav .p-stepper-header.p-highlight button .p-stepper-number{
+    background: #fff;
+    color: #06b6d4;
+    font-weight: 600;
+}
+
+.multystep-component .p-stepper-nav .p-stepper-header.p-highlight button .p-stepper-title{
+    color: #fff;
+}
+
+.multystep-component .p-stepper-nav .p-stepper-header .p-stepper-title{
+    font-size: 14px;
+}
+
+.multystep-component .p-stepper-nav .p-stepper-header:last-child{
+    border: none;
+}
+
+.multystep-component .p-stepper-nav .p-stepper-header{
+    padding: 20px;
+    background: #d2d2d2;
+    border-right: 1px solid #c5c5c5;
+    width: 33.3%;
+}
+
+.multystep-component .p-stepper-panels{
+    padding: 0;
+}
+
+.next-button::after{
+    content: '→';
+    font-size: 21px;
+    line-height: 16px;
+    margin-top: -2px
+}
+
+.next-button{
+background-color: #000 !important;
+border-color: #000 !important;
+}
+
+
+button:focus{
+    box-shadow: none;
+}
+.varients-wraapper{
+  text-transform: capitalize;
+  font-size: 13px;
+  color: #272727;
+  font-weight: 600;
+}
+
+.p-stepper-nav li{
+    width: 100%;
+    padding: 15px 20px;
+    background: #ececec;
+    border-right: 3px solid #ffffff;
+    white-space: pre;
+}
+
+.p-stepper-nav li:last-child{
+    border: none;
+    margin: 0;
+}
+
+.back-button .p-button-icon{
+    display: none;
+}
+
+.left-link-list div:last-child{
+    border-bottom: 0px;
+}
+
+.tab-right-content .HairColor_main_div__bNnR1{
+    border: none;
+    border-top: 1px solid #d1d5db;
+    padding-top: 20px;
+}
+
+.tab-right-content .top-filter-sec{
+    /* gap: 20px; */
+}
+
+.tab-right-content .top-filter-sec input{
+    background: #eeebeb;
+    padding: 3px 10px;
+    font-size: 15px;
+}
+
+.tab-right-content .top-filter-sec .filter-box,
+.tab-right-content .top-filter-sec .filter-box label{
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.p-stepper-nav{
+    padding-bottom: 2px;
+}
+
+.p-stepper-nav::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #e0e0e0;
+}
+
+.p-stepper-nav::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+    height: 8px;
+}
+
+.p-stepper-nav::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #000000;
+}

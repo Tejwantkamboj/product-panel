@@ -1,0 +1,558 @@
+[
+  {
+    "id": "CH1",
+    "hierarchy_id": "CH1",
+    "label": "Character 1",
+    "description": "This is for Character 1",
+    "tabs": [
+      {
+        "id": "accessoriesCH1",
+        "required": false,
+        "has_input": false,
+        "has_date": false,
+        "has_textarea": true,
+        "textarea": {
+          "id": "text_accessories_typeCH1",
+          "placeholder": "Add Text Here ",
+          "label": "Accessories Description",
+          "value": ""
+        },
+        "extra_information": "These are the diffrent types of accessories",
+        "label": "Accessories CH1",
+        "title": "Accessories Type",
+        "parent": "CH1",
+        "element_type": "image",
+        "types": [
+          {
+            "id": "accessories_typeCH12",
+            "type": "accessories",
+            "element_type": "image",
+            "required": true,
+            "hierarchy_id": "CH1.accessories.accessories_type2",
+            "img": "../images/accessories2.jpeg",
+            "parent": "accessoriesCH1",
+            "has_child": false,
+            "title": "child accessories 2",
+            "extra_information": "These are the second child types of accessories",
+            "childTypes": [
+              {
+                "id": "CH1AC21",
+                "parent": "accessories_typeCH12",
+                "hierarchy_id": "CH1.accessoriesCH1.accessories_typeCH12.CH1AT21",
+                "label": "Bun",
+                "img": "../images/images (3).jpeg"
+              },
+              {
+                "id": "CH1AC22",
+                "parent": "accessories_typeCH12",
+                "hierarchy_id": "CH1.accessoriesCH1.accessories_typeCH12.CH1AT22",
+                "label": "Long",
+                "img": "../images/download (1).jpeg"
+              },
+              {
+                "id": "CH1AC23",
+                "parent": "accessories_typeCH12",
+                "hierarchy_id": "CH1.accessoriesCH1.accessories_typeCH12.CH1AT23",
+                "label": "Curly",
+                "img": "../images/download (1).jpeg"
+              },
+              {
+                "id": "CH1AT24",
+                "parent": "accessories_typeCH12",
+                "hierarchy_id": "CH1.accessoriesCH1.accessories_typeCH12.CH1AT24",
+                "label": "Bun",
+                "img": "../images/download (1).jpeg"
+              },
+              {
+                "id": "CH1AT25",
+                "parent": "accessories_typeCH12",
+                "hierarchy_id": "CH1.accessoriesCH1.accessories_typeCH12.CH1AT25",
+                "label": "Long",
+                "img": "../images/download (1).jpeg"
+              },
+              {
+                "id": "CH1AT26",
+                "parent": "accessories_typeCH12",
+                "hierarchy_id": "CH1.accessoriesCH1.accessories_typeCH12.CH1AT26",
+                "label": "Curly",
+                "img": "../images/download (1).jpeg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skin_typeCH1",
+        "required": true,
+        "has_input": true,
+        "has_date": true,
+        "has_textarea": true,
+        "input": {
+          "id": "input_skin_typeCH1",
+          "placeholder": "Enter Skin Type",
+          "label": "Skin Type",
+          "value": ""
+        },
+        "date": {
+          "id": "date_skin_typeCH1",
+          "label": "Birth Date",
+          "value": ""
+        },
+        "textarea": {
+          "id": "text_skin_typeCH1",
+          "placeholder": "Add Text Here ",
+          "label": "Hobby Description",
+          "value": ""
+        },
+        "title": "Skin Type",
+        "extra_information": "These are the diffrent types of skin",
+        "label": "Skin Tone CH1",
+        "parent": "CH1",
+        "element_type": "checkbox",
+        "types": [
+          {
+            "id": "skin_typeCH11",
+            "type": "RASHY",
+            "element_type": "image",
+            "required": true,
+            "hierarchy_id": "CH1.skin_type.skin_type1",
+            "img": "../images/images (3).jpeg",
+            "parent": "skin_typeCH1",
+            "has_child": true,
+            "title": "child skin1",
+            "extra_information": "These are the diffrent child types of skin",
+            "childTypes": [
+              {
+                "id": "CH1ST2",
+                "parent": "skin_typeCH11",
+                "hierarchy_id": "CH1.skin_typeCH1.skin_typeCH11.CH1ST2",
+                "label": "Long",
+                "img": "../images/images (3).jpeg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dress_typeCH1",
+        "required": false,
+        "has_input": true,
+        "has_textarea": true,
+        "has_date": false,
+        "input": {
+          "id": "input_dress_typeCH1",
+          "placeholder": "Enter Dress Color Here",
+          "label": "Dress Color",
+          "value": "dghf"
+        },
+        "textarea": {
+          "id": "text_dress_typeCH1",
+          "placeholder": "Add Description Here",
+          "label": "Dress Description",
+          "value": "bfgfb"
+        },
+        "label": "Dress CH1",
+        "title": "Dress Type",
+        "parent": "CH1",
+        "element_type": "radio",
+        "extra_information": "Theae are diffrent type of dresses",
+        "types": [
+          {
+            "id": "dress_typeCH11",
+            "type": "fabric",
+            "element_type": "radio",
+            "required": true,
+            "hierarchy_id": "CH1.dress.dress_type1",
+            "img": "../images/dress.jpeg",
+            "parent": "dress_typeCH1",
+            "has_child": true,
+            "title": "child dress",
+            "extra_information": "These are the diffrent child types of dress",
+            "childTypes": [
+              {
+                "id": "CH1DT1",
+                "parent": "dress_typeCH11",
+                "hierarchy_id": "CH1.dress_typeCH1.dress_typeCH11.CH1DT1",
+                "label": "Bun",
+                "img": "../images/dress3.jpeg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hair_typeCH1",
+        "required": true,
+        "has_input": false,
+        "has_textarea": true,
+        "has_date": true,
+        "date": {
+          "id": "date_hair_typeCH1",
+          "label": "Anniversary  Date",
+          "value": ""
+        },
+        "textarea": {
+          "id": "text_hair_typeCH1",
+          "placeholder": "Enter About Hair Type Here",
+          "label": "Hair Description",
+          "value": ""
+        },
+        "label": "Hairs CH1",
+        "title": "Hair Type",
+        "extra_information": "These are the diffrent types of Hair",
+        "parent": "CH1",
+        "element_type": "dropdown",
+        "types": [
+          {
+            "id": "hair_typeCH12",
+            "type": "Swatches",
+            "element_type": "checkbox",
+            "required": true,
+            "hierarchy_id": "CH2.hair_color",
+            "img": "../images/images (3).jpeg",
+            "parent": "hair_typeCH1",
+            "has_child": true,
+            "title": "child curly hairs",
+            "extra_information": "These are the diffrent child types of curly hairs",
+            "childTypes": [
+              {
+                "id": "CH1HC22",
+                "parent": "hair_typeCH12",
+                "hierarchy_id": "CH1.hair_typeCH1.hair_typeCH12.CH1HC22",
+                "label": "Long",
+                "img": "../images/download (1).jpeg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "created_date": "19-09-2024"
+  },
+  {
+    "id": "CH2",
+    "hierarchy_id": "CH2",
+    "label": "Character 2",
+    "description": "This is for Character 2",
+    "tabs": [
+      {
+        "id": "skin_typeCH2",
+        "required": true,
+        "has_input": false,
+        "has_date": true,
+        "has_textarea": true,
+        "date": {
+          "id": "date_skin_typeCH2",
+          "label": "Birth Date",
+          "value": ""
+        },
+        "textarea": {
+          "id": "text_skin_typeCH2",
+          "placeholder": "Add Text Here ",
+          "label": "Skin Tone Description",
+          "value": ""
+        },
+        "extra_information": "These are the diffrent types of skin step2",
+        "label": "Skin Tone CH2",
+        "parent": "CH2",
+        "element_type": "image",
+        "title": "Skin Type",
+        "types": [
+          {
+            "id": "skin_typeCH21",
+            "type": "RASHY",
+            "element_type": "image",
+            "required": true,
+            "hierarchy_id": "CH2.skin_type.skin_type1",
+            "img": "../images/skin3.jpeg",
+            "parent": "skin_typeCH2",
+            "has_child": true,
+            "title": "child skin ",
+            "extra_information": "These are the child types of skin",
+            "childTypes": [
+              {
+                "id": "CH2ST3",
+                "parent": "skin_typeCH21",
+                "hierarchy_id": "CH2.skin_typeCH2.skin_typeCH21.CH2ST3",
+                "label": "Curly",
+                "img": "../images/images (3).jpeg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hair_typeCH2",
+        "required": true,
+        "has_input": false,
+        "has_date": true,
+        "has_textarea": true,
+        "date": {
+          "id": "date_hair_typeCH2",
+          "label": "Date",
+          "value": ""
+        },
+        "textarea": {
+          "id": "text_hair_typeCH2",
+          "placeholder": "Add Text Here",
+          "label": "Hair Description",
+          "value": ""
+        },
+        "extra_information": "These are the diffrent types of hairs step 2",
+        "element_type": "checkbox",
+        "label": "Hairs CH2",
+        "title": "Hairs",
+        "parent": "CH2",
+        "types": [
+          {
+            "id": "hair_typeCH22",
+            "type": "Swatches",
+            "element_type": "image",
+            "hierarchy_id": "CH2.hair_color",
+            "img": "../images/images (3).jpeg",
+            "parent": "hair_typeCH2",
+            "title": "child hair 2 ",
+            "extra_information": "These are the child types of hair type 2",
+            "has_child": true,
+            "childTypes": [
+              {
+                "id": "CH2HT26",
+                "parent": "hair_typeCH22",
+                "hierarchy_id": "CH2.hair_typeCH2.hair_typeCH22.CH2HC26",
+                "label": "Curly",
+                "img": "../images/download (1).jpeg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dress_typeCH2",
+        "required": false,
+        "has_input": false,
+        "has_date": false,
+        "has_textarea": true,
+        "textarea": {
+          "id": "text_dress_typeCH2",
+          "placeholder": "Enter Dress Description Here",
+          "label": "Dress Description",
+          "value": ""
+        },
+        "extra_information": "These are the diffrent types of dress step 2",
+        "label": "Dress CH2",
+        "element_type": "image",
+        "title": "Dress",
+        "parent": "CH2",
+        "types": [
+          {
+            "id": "dress_typeCH22",
+            "type": "cotton",
+            "element_type": "image",
+            "required": true,
+            "hierarchy_id": "CH2.dress.dress_type2",
+            "img": "../images/dress2.jpeg",
+            "parent": "dress_typeCH2",
+            "has_child": true,
+            "title": "child dress 2 ",
+            "extra_information": "These are the child types of dress type 2",
+            "childTypes": [
+              {
+                "id": "CH2DT24",
+                "parent": "dress_typeCH22",
+                "hierarchy_id": "CH2.dress_typeCH2.dress_typeCH22.CH2DT24",
+                "label": "Bun",
+                "img": "../images/download (1).jpeg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "name_typeCH2",
+        "required": true,
+        "has_input": true,
+        "has_date": false,
+        "has_textarea": false,
+        "input": {
+          "id": "input_name_typeCH2",
+          "placeholder": "Enter Here",
+          "label": "Enter Name",
+          "value": ""
+        },
+        "extra_information": "These are the diffrent types of names step 2",
+        "placeholder": "name type",
+        "label": "Name CH2",
+        "parent": "CH2",
+        "title": "Name types",
+        "element_type": "radio",
+        "types": [
+          {
+            "id": "name_typeCH22",
+            "type": "cotton",
+            "element_type": "image",
+            "required": true,
+            "hierarchy_id": "CH2.name_color",
+            "img": "../images/images (3).jpeg",
+            "parent": "name_typeCH2",
+            "title": "child name 2 ",
+            "has_child": true,
+            "extra_information": "These are the child types of name type 2",
+            "childTypes": [
+              {
+                "id": "CH2NT23",
+                "parent": "name_typeCH22",
+                "hierarchy_id": "CH2.name_typeCH2.name_typeCH22.CH2NT23",
+                "label": "Curly",
+                "img": "../images/download (1).jpeg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "created_date": "19-09-2024"
+  },
+  {
+    "id": "CH3",
+    "hierarchy_id": "CH3",
+    "label": "Character 3",
+    "description": "This is for Character 3",
+    "tabs": [
+      {
+        "id": "skin_colorCH3",
+        "required": true,
+        "has_input": true,
+        "has_date": false,
+        "has_textarea": true,
+        "input": {
+          "id": "input_skin_typeCH3",
+          "placeholder": "Enter your Skin Type",
+          "label": "Skin Type",
+          "value": ""
+        },
+        "textarea": {
+          "id": "text_skin_typeCH3",
+          "placeholder": "Add Skin Description Here ",
+          "label": "Skin Description",
+          "value": ""
+        },
+        "extra_information": "These are the diffrent types of skin 3",
+        "label": "Skin Tone CH3",
+        "parent": "CH3",
+        "element_type": "image",
+        "title": "skin Type",
+        "types": [
+          {
+            "id": "skin_typeCH32",
+            "type": "Oily",
+            "element_type": "image",
+            "required": true,
+            "hierarchy_id": "CH3.skin_color.skin_type2",
+            "img": "../images/skin1.jpeg",
+            "parent": "skin_colorCH3",
+            "has_child": true,
+            "title": "child skin 2 ",
+            "extra_information": "These are the child types of skin type 2 ",
+            "childTypes": [
+              {
+                "id": "ST23",
+                "parent": "skin_typeCH32",
+                "hierarchy_id": "CH3.skin_colorCH3.skin_typeCH32.ST23",
+                "label": "Curly",
+                "img": "../images/download (1).jpeg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hair_typeCH3",
+        "required": false,
+        "has_input": true,
+        "has_date": true,
+        "has_textarea": false,
+        "input": {
+          "id": "input_hair_typeCH3",
+          "placeholder": "Enter Hair Color Here",
+          "label": "Skin Color",
+          "value": ""
+        },
+        "date": {
+          "id": "date_hair_typeCH3",
+          "label": "Join Date",
+          "value": ""
+        },
+        "extra_information": "These are the diffrent types of hair 3",
+        "label": "Hairs CH3",
+        "parent": "CH3",
+        "element_type": "image",
+        "title": "Hair Type",
+        "types": [
+          {
+            "id": "hair_typeCH31",
+            "type": "Swatches",
+            "element_type": "image",
+            "required": true,
+            "hierarchy_id": "CH3.hair_type.hair_type1",
+            "img": "../images/images (3).jpeg",
+            "parent": "hair_typeCH3",
+            "has_child": true,
+            "title": "child hair  ",
+            "extra_information": "These are the child types of hair type ",
+            "childTypes": [
+              {
+                "id": "HT2",
+                "parent": "hair_typeCH31",
+                "hierarchy_id": "CH3.hair_typeCH3.hair_typeCH31.HT2",
+                "label": "Long",
+                "img": "../images/images (3).jpeg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dress_typeCH3",
+        "required": true,
+        "has_input": true,
+        "has_date": false,
+        "has_textarea": false,
+        "input": {
+          "id": "input_dress_typeCH3",
+          "placeholder": "Enter dress Style",
+          "label": "Dress Style",
+          "value": ""
+        },
+        "extra_information": "These are the diffrent types of dress 3",
+        "label": "Dress CH3",
+        "parent": "CH3",
+        "title": "Dress Type",
+        "element_type": "image",
+        "types": [
+          {
+            "id": "dress_typeCH31",
+            "type": "fabric",
+            "element_type": "image",
+            "required": true,
+            "hierarchy_id": "CH3.dress.dress_type1",
+            "img": "../images/dress2.jpeg",
+            "parent": "dress_typeCH3",
+            "has_child": true,
+            "title": "child name  ",
+            "extra_information": "These are the child types of name type ",
+            "childTypes": [
+              {
+                "id": "DT2",
+                "parent": "dress_typeCH31",
+                "hierarchy_id": "CH3.dress_typeCH3.dress_typeCH31.DT2",
+                "label": "Long",
+                "img": "../images/dress4.jpeg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "created_date": "19-09-2024"
+  }
+]
